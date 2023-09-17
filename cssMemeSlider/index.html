@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Meme Slider</title>
+    <link rel="stylesheet" href="./styles.css"></link>
+</head>
+
+<body>
+    <div class="section">
+        <div class="wrapper">
+            <div class="slide fade">
+                <div class="img"><img src="./assets/jpeg/1.jpg" alt="img1"></div>
+
+                <div class="text">Коллеги объясняют джуну, что не стоит сразу пушить в мастер</div>
+            </div>
+
+            <div class="slide fade">
+                <div class="img"><img src="./assets/jpeg/2.jpg" alt="img2"></div>
+
+                <div class="text">Аминь</div>
+            </div>
+
+            <div class="slide fade">
+                <div class="img"><img src="./assets/jpeg/3.jpg" alt="img3"></div>
+
+                <div class="text">HTML + CSS + JS</div>
+            </div>
+
+            <div class="slide fade">
+                <div class="img"><img src="./assets/jpeg/4.jpg" alt="img4"></div>
+
+                <div class="text">На этом фото группа JS-программистов реализует функцию сложения</div>
+            </div>
+
+            <div class="slide fade">
+                <div class="img"><img src="./assets/jpeg/5.jpg" alt="img5"></div>
+
+                <div class="text">"Let or const. There is no var" - Yoda</div>
+            </div>
+
+            <div class="pagination">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="./script.js"></script>
+
+</html>
